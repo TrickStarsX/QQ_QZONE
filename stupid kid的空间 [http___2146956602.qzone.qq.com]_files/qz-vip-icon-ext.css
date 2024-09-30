@@ -1,0 +1,282 @@
+
+/**
+* PC空间个人中心顶部、个人主页顶部、个人档、留言板
+* 备注：留言板的豪华黄钻和普通黄钻样式一致
+*/
+
+/* 修复礼物榜错位问题 */
+.send-gift-list li .info-details .user-name {
+  max-width: 40px;
+}
+
+/* 普通黄钻：无LV10 */
+.qz_vip_icon_l_10,
+.qz_vip_icon_l_gray_10,
+.qz_vip_icon_fla_l_10,
+.qz_vip_icon_fla_l_gray_10 {
+  display: inline-block;
+  width: 70px;
+  height: 47px;
+  overflow: hidden;
+}
+/* 豪华黄钻 */
+.qz_vip_icon_l_10,
+.qz_vip_icon_fla_l_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_l_10.png);
+}
+
+/* 豪华黄钻灰 */
+.qz_vip_icon_l_gray_10,
+.qz_vip_icon_fla_l_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_l_gray_10.png);
+}
+
+.qz_vip_icon_l_year_10,
+.qz_vip_icon_l_year_gray_10,
+.qz_vip_icon_l_gray_year_gray_10,
+.qz_vip_icon_fla_l_year_10,
+.qz_vip_icon_fla_l_year_gray_10,
+.qz_vip_icon_fla_l_gray_year_gray_10 {
+  display:inline-block;
+  width: 98px;
+  height: 49px;
+  overflow: hidden;
+}
+/* 豪华黄钻年费 */
+.qz_vip_icon_l_year_10,
+.qz_vip_icon_fla_l_year_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_l_year_10.png);
+}
+
+/* 豪华黄钻年费灰 */
+.qz_vip_icon_l_year_gray_10,
+.qz_vip_icon_fla_l_year_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_l_year_gray_10.png);
+}
+
+/* 豪华黄钻年费灰黄钻灰 */
+.qz_vip_icon_l_gray_year_gray_10,
+.qz_vip_icon_fla_l_gray_year_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_l_gray_year_gray_10.png);
+}
+
+/**
+* PC空间访客模块
+* PC空间好友积分排名
+* 备注：好友积分排名的豪华黄钻和普通黄钻样式一致
+*/
+
+/* 修复名称超出问题 */
+.icenter-right-mod .three-in-line li.user-item .user-name-bg .user-name {
+  max-width: 35px;
+}
+
+.qz_vip_icon_s_10,
+.qz_vip_icon_s_gray_10,
+.qz_vip_icon_fla_s_10,
+.qz_vip_icon_fla_s_gray_10 {
+  width: 23px!important;
+  height: 15px!important;
+  display: inline-block;
+  background-size: contain;
+}
+/* 豪华黄钻 */
+.qz_vip_icon_s_10,
+.qz_vip_icon_fla_s_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_10.png);
+}
+
+/* 豪华黄钻灰 */
+.qz_vip_icon_s_gray_10,
+.qz_vip_icon_fla_s_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_gray_10.png);
+}
+
+.qz_vip_icon_s_year_10,
+.qz_vip_icon_s_year_gray_10,
+.qz_vip_icon_s_gray_year_gray_10,
+.qz_vip_icon_fla_s_year_10,
+.qz_vip_icon_fla_s_year_gray_10,
+.qz_vip_icon_fla_s_gray_year_gray_10 {
+  width: 35px!important;
+  height: 15px!important;
+  display: inline-block;
+  background-size: contain;
+}
+/* 豪华黄钻年费 */
+.qz_vip_icon_s_year_10,
+.qz_vip_icon_fla_s_year_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_year_10.png);
+}
+
+/* 豪华黄钻年费灰 */
+.qz_vip_icon_s_year_gray_10,
+.qz_vip_icon_fla_s_year_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_year_gray_10.png);
+}
+
+/* 豪华黄钻年费灰黄钻灰 */
+.qz_vip_icon_s_gray_year_gray_10,
+.qz_vip_icon_fla_s_gray_year_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_gray_year_gray_10.png);
+}
+
+.qz_vip_icon_s_year_fee_10,
+.qz_vip_icon_s_year_fee_gray_10,
+.qz_vip_icon_fla_s_year_fee_10,
+.qz_vip_icon_fla_s_year_fee_gray_10 {
+  width: 46px!important;
+  height: 15px!important;
+  display: inline-block;
+  background-size: contain;
+}
+/* 豪华黄钻年费 - 带“费”字 */
+.qz_vip_icon_s_year_fee_10,
+.qz_vip_icon_fla_s_year_fee_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_year_fee_10.png);
+}
+
+/* 豪华黄钻年费 - 带“费”字 全灰 */
+.qz_vip_icon_s_year_fee_gray_10,
+.qz_vip_icon_fla_s_year_fee_gray_10 {
+  background-image: url(img/qz-vip-icon/v10/qz_vip_icon_fla_s_year_fee_gray_10.png);
+}
+
+/**
+* PC空间好友动态
+*/
+.qz-f-vip-fla-l-10,
+.qz-f-vip-fla-l-gray-10 {
+  width: 36px;
+  height: 24px;
+  background-size: contain;
+  display: inline-block;
+}
+/* 豪华黄钻 */
+.qz-f-vip-fla-l-10 {
+  background-image: url(img/qz-vip-icon/v10/qz-f-vip-fla-l-10.png);
+}
+
+/* 豪华黄钻灰 */
+.qz-f-vip-fla-l-gray-10 {
+  background-image: url(img/qz-vip-icon/v10/qz-f-vip-fla-l-gray-10.png);
+}
+
+.qz-f-vip-fla-l-y-10,
+.qz-f-vip-fla-l-y-gray-10,
+.qz-f-vip-fla-l-gray-y-gray-10 {
+  width: 50px;
+  height: 24px;
+  background-size: contain;
+  display: inline-block;
+}
+/* 豪华黄钻年费 */
+.qz-f-vip-fla-l-y-10 {
+  background-image: url(img/qz-vip-icon/v10/qz-f-vip-fla-l-y-10.png);
+}
+
+/* 豪华黄钻年费半灰 */
+.qz-f-vip-fla-l-y-gray-10 {
+  background-image: url(img/qz-vip-icon/v10/qz-f-vip-fla-l-y-gray-10.png);
+}
+
+/* 豪华黄钻年费全灰 */
+.qz-f-vip-fla-l-gray-y-gray-10 {
+  background-image: url(img/qz-vip-icon/v10/qz-f-vip-fla-l-gray-y-gray-10.png);
+}
+
+
+/**
+* 手Q空间访客
+* 图标资源形式: 普通黄钻10级 qv_ui-icon-vip_l10.png
+*/
+
+.ui-icon-vip.l10,
+.ui-icon-vip.l10.expired,
+.ui-icon-svip.l10,
+.ui-icon-svip.l10.expired {
+  background-position: unset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 28px;
+}
+
+.ui-icon-vip.l10:before,
+.ui-icon-vip.l10.expired:before,
+.ui-icon-svip.l10:before,
+.ui-icon-svip.l10.expired:before {
+  background-image: none;
+}
+
+/* 普通黄钻 */
+.ui-icon-vip.l10 {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-vip_l10.png);
+}
+
+/* 普通黄钻 灰*/
+.ui-icon-vip.l10.expired {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-vip_l10_expired.png);
+}
+
+/* 豪华黄钻 */
+.ui-icon-svip.l10 {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-svip_l10.png);
+}
+
+/* 豪华黄钻 灰*/
+.ui-icon-svip.l10.expired {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-svip_l10_expired.png);
+}
+
+/* 超级黄钻 */
+.ui-icon-svip.vip-10th.l10 {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-svip_vip-10th_l10.png);
+  background-position: unset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 27px;
+}
+.ui-icon-svip.vip-10th.l10:before {
+  background-image: none;
+}
+
+.ui-icon-vip.year.l10,
+.ui-icon-vip.year.l10.expired,
+.ui-icon-svip.year.l10,
+.ui-icon-svip.year.l10.expired {
+  background-position: unset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 52px;
+  height: 28px;
+}
+
+.ui-icon-vip.year.l10:before,
+.ui-icon-vip.year.l10.expired:before,
+.ui-icon-svip.year.l10:before,
+.ui-icon-svip.year.l10.expired:before {
+  background-image: none;
+}
+
+
+/* 普通黄钻 年费*/
+.ui-icon-vip.year.l10 {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-vip_l10_year.png);
+}
+
+/* 普通黄钻 年费 灰*/
+.ui-icon-vip.year.l10.expired {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-vip_l10_year_expired.png);
+}
+
+/* 豪华黄钻 年费*/
+.ui-icon-svip.year.l10 {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-svip_l10_year.png);
+}
+
+/* 豪华黄钻 年费 灰*/
+.ui-icon-svip.year.l10.expired {
+  background-image: url(img/qz-vip-icon/v10/qv_ui-icon-svip_l10_year_expired.png);
+}
